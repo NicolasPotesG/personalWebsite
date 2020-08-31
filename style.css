@@ -1,112 +1,113 @@
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 #navBar {
-	position: sticky;
-	top: 0;
-	z-index: 10;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 .navbar {
-	background-image: linear-gradient(to right, #62b5f0, #066cb6);
-	padding: 0 !important;
+  background-image: linear-gradient(to right, #62b5f0, #066cb6);
+  padding: 0 !important;
 }
 
 .navbar-brand img {
-	height: 48px;
-	width: 48px;
-	margin-left: 10px;
+  height: 48px;
+  width: 48px;
+  margin-left: 10px;
 }
 
 .navbar-nav li {
-	padding: 0 10px;
+  padding: 0 10px;
 }
 
 .navbar-nav li a {
-	color: #fff !important;
-	font-weight: 600;
-	float: right;
-	text-align: left;
+  color: #fff !important;
+  font-weight: 600;
+  float: right;
+  text-align: left;
 }
 
 .fa-bars {
-	color: #fff;
+  color: #fff;
 }
 
 .navbar-toggler {
-	outline: none !important;
+  outline: none !important;
 }
 
 /*---------------banner---------------*/
 
 #banner {
-	background-image: linear-gradient(to right, #62b5f0, #066cb6);
-	color: #fff;
-	padding-top: 1%;
+  background-image: linear-gradient(to right, #62b5f0, #066cb6);
+  color: #fff;
+  padding-top: 1%;
 }
 
 .bannerTitle {
-	font-size: 40px;
-	font-weight: 600;
-	margin-top: 90px;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 90px;
 }
 
 #banner img {
-	margin-bottom: 40px;
-	border: 3px solid #fff;
-	border-radius: 25px;
-	margin-top: 15px;
+  margin-bottom: 40px;
+  border: 3px solid #fff;
+  border-radius: 25px;
+  margin-top: 15px;
 }
 
 #banner a {
-	color: #fff;
-	text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .fa-play-circle-o {
-	background-size: 100px;
-	color: #fff;
-	margin-right: 10px;
+  background-size: 100px;
+  color: #fff;
+  margin-right: 10px;
 }
 
 .bottom-img {
-	width: 100%;
+  width: 100%;
 }
 
 /*---------------about me---------------*/
 
 .card {
-	border-radius: 0;
-	box-shadow: 5px 5px 15px #066cb6;
-	transition: all 0.3s ease-in;
-	-webkit-transition: all 0.3s ease-in;
-	-moz-transition: all 0.3s ease-in;
-	margin-bottom: 15px;
+  border-radius: 0;
+  box-shadow: 5px 5px 15px #066cb6;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  margin-bottom: 15px;
 }
 
+/*COMENTARIO MARIO: El nombre de la regla (p-4) no permite entender con claridad a qué elemento se le aplican los estilos*/
 .p-4 i {
-	color: #066cb6;
+  color: #066cb6;
 }
 
 .card:hover {
-	background: #066cb6;
-	color: #fff;
-	border-radius: 5px;
-	border: none;
-	box-shadow: 5px 5px 10px #62b5f0;
+  background: #066cb6;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 10px #62b5f0;
 }
 
 .card:hover i {
-	color: #fff;
+  color: #fff;
 }
 
 .card:hover img {
-	border: 3px solid #fff;
+  border: 3px solid #fff;
 }
 
 /*---------------proyects---------------*/
@@ -115,77 +116,82 @@ body {
 	margin-top: 50px;
 }*/
 
+/*COMENTARIO MARIO: El nombre de la regla permite entender a qué elemento se le aplican los estilos. Está bien nombrada*/
 #h2Projects {
-	/*margin-top: 20px;*/
-	color: #62b5f0;
-	font-size: 300%;
+  /*margin-top: 20px;*/
+  color: #62b5f0;
+  font-size: 300%;
 }
 
 /*---------------hobbies---------------*/
 #hobbies {
-	margin-top: 15px;
-	margin-bottom: 40px;
+  margin-top: 15px;
+  margin-bottom: 40px;
 }
 
 #hobbies h2 {
-	color: #066cb6;
+  color: #066cb6;
 }
 
 #imgCine {
-	border: 3px solid #066cb6;
-	border-radius: 25px;
-	margin-top: 15px;
+  border: 3px solid #066cb6;
+  border-radius: 25px;
+  margin-top: 15px;
 }
 
 /*---------------education---------------*/
 #education {
-	margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 #education h2 {
-	color: #066cb6;
-	font-size: 60px;
+  color: #066cb6;
+  font-size: 60px;
 }
 
 #education li {
-	font-size: 20px;
+  font-size: 20px;
 }
 
 #education li:hover {
-	background: #066cb6;
-	color: #fff;
-	box-shadow: 5px 5px 10px #62b5f0;
+  background: #066cb6;
+  color: #fff;
+  box-shadow: 5px 5px 10px #62b5f0;
 }
 
 #languageText {
-	background: #62b5f0;
-	color: #fff;
+  background: #62b5f0;
+  color: #fff;
 }
 
+/*COMENTARIO MARIO: El nombre de la regla no permite entender a qué elemento se le aplican los estilos*/
 #pL {
-	background: #62b5f0;
-	color: #fff;
+  background: #62b5f0;
+  color: #fff;
 }
 
 /*---------------footer---------------*/
 
 #footer {
-	background-color: #62b5f0;
-	font-family: sans-serif;
-	color: #fff;
-	font-size: 20px;
+  background-color: #62b5f0;
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 20px;
 }
 
 #footer a:link,
 #footer a:visited {
-	text-decoration: none;
-	color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 #footer a:hover,
 #footer a:active {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 #footer i {
-	margin-right: 10px;
+  margin-right: 10px;
 }
+
+/*COMENTARIOS GENERALES CSS (MARIO HURTADO): El código es legible y está bien estructurado. A pesar de que el nombre de algunas 
+reglas no es claro, el código es limpio y claro. Se puede revisar con facilidad*/
