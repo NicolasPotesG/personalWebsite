@@ -3,7 +3,7 @@
 	padding: 0;
 }
 
-body {
+body{
 	font-family: sans-serif;
 }
 
@@ -109,7 +109,7 @@ body {
 	border: 3px solid #fff;
 }
 
-/*---------------proyects---------------*/
+/*---------------projects---------------*/
 
 /*#carouselExampleCaptions {
 	margin-top: 50px;
@@ -117,8 +117,18 @@ body {
 
 #h2Projects {
 	/*margin-top: 20px;*/
-	color: #62b5f0;
+	color: #066cb6;
 	font-size: 300%;
+	margin-bottom: 5%;
+}
+
+.pl {
+	color: #62b5f0;
+	font-size: 1.5rem;
+}
+
+.text-icons {
+	font-size:1.2rem;
 }
 
 /*---------------hobbies---------------*/
@@ -144,7 +154,7 @@ body {
 
 #education h2 {
 	color: #066cb6;
-	font-size: 60px;
+	font-size: 300%;
 }
 
 #education li {
@@ -165,6 +175,27 @@ body {
 #pL {
 	background: #62b5f0;
 	color: #fff;
+}
+
+/*---------------work experience---------------*/
+
+#workexperience {
+	margin-bottom: 0px;
+}
+
+#workexperience h2 {
+	color: #066cb6;
+	font-size: 300%;
+}
+
+#workexperience li {
+	font-size: 20px;
+}
+
+#workexperience li:hover {
+	background: #066cb6;
+	color: #fff;
+	box-shadow: 5px 5px 10px #62b5f0;
 }
 
 /*---------------footer---------------*/
@@ -189,3 +220,5 @@ body {
 #footer i {
 	margin-right: 10px;
 }
+
+/*---------------skills summary---------------*/
